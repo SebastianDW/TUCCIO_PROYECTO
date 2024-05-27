@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+}
+
+main {
+    width: 100%;
+    height: calc(100vh - 60px);
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#contenedor_servicios {
+    width: 90vw;
+    height: 90%;
+    box-shadow: 0px 5px 15px -5px black;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+}
+
+/* ------ navegación lateral-------*/
+.nav-container {
+    font-family: "Radio Canada Big", sans-serif;
+    width: 350px;
+    height: 100%;
+    box-shadow: 0px 1px 10px -5px black;
+}
+
+.nav-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-item {
+    margin-bottom: 0px;
+    position: relative;
+    /* Importante para posicionar el submenú relativo a este elemento */
+}
+
+.nav-item>a {
+    display: block;
+    padding: 10px;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid rgb(223, 223, 223);
+    font-weight: 500;
+}
+
+.sub-menu {
+    list-style-type: none;
+    padding-left: 20px;
+    /* Ajuste de sangría para submenú */
+    display: none;
+    /* Oculto por defecto */
+    background: rgb(59, 87, 146);
+}
+
+.sub-menu li {
+    background: rgb(238, 238, 238);
+}
+
+.sub-menu li:hover {
+    background: #d4d4d4;
+    ;
+}
+
+.sub-menu li a {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.nav-item.active .sub-menu {
+    display: block;
+    /* Mostrar cuando el nav-item está activo */
+}
+
+/*---------informacion-------------*/
+#contenedor_informacion {
+    width: 100%;
+    height: 100%;
+    background: rgb(224, 224, 224);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cabecera_info {
+    width: 90%;
+    height: 10%;
+    background: white;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 8px -3px black;
+}
+
+#cuerpo_info {
+    width: 90%;
+    height: 70%;
+    background: white;
+    border-radius: 8px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 8px -3px black;
+}
