@@ -1,0 +1,73 @@
+.container {
+    margin-top: 50px;
+}
+
+/* Títulos */
+h1 {
+    font-size: 36px;
+    color: #004080; /* Azul oscuro */
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #004080; /* Azul oscuro */
+}
+
+/* Botones del acordeón */
+.accordion-button {
+    background-color: #007bff; /* Azul */
+    color: white;
+    border: none;
+}
+
+.accordion-button:hover {
+    background-color: #0056b3; /* Azul más oscuro */
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #0056b3; /* Azul más oscuro */
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+/* Cuerpo del acordeón */
+.accordion-body {
+    background-color: #e9f1ff; /* Azul claro */
+    border: 1px solid #007bff; /* Azul */
+    padding: 15px;
+}
+
+/* Elementos de la lista */
+.list-group-item {
+    background-color: #ffffff;
+    color: #004080; /* Azul oscuro */
+    border: 1px solid #007bff; /* Azul */
+    margin-bottom: 10px;
+}
+
+.list-group-item:hover {
+    background-color: #e9f1ff; /* Azul claro */
+    cursor: pointer;
+}
+
+/* Descripción y requisitos */
+#servicioDescripcion {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#servicioRequisitos {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#servicioRequisitos li {
+    background-color: #ffffff;
+    color: #004080; /* Azul oscuro */
+    border: 1px solid #007bff; /* Azul */
+    padding: 10px;
+    margin-bottom: 10px;
+}

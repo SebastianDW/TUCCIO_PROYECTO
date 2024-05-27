@@ -1,0 +1,56 @@
+.seccion-ubicacion {
+    background-image: url('/imagenes/fondo_ubicacion.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    max-width: 100%;
+}
+
+.titulo-contacto {
+    color: #1d04ac;
+    /* Color del texto */
+    font-size: 86px;
+    /* Tamaño del título */
+    margin-bottom: 20px;
+    /* Espacio inferior */
+}
+
+.datos-empresa {
+    list-style-type: none;
+    /* Quita los puntos de la lista */
+    padding-left: 0;
+    /* Quita el padding izquierdo de la lista */
+    margin-top: 85px;
+    margin-bottom: 20px;
+    font-size: 56px;
+    margin-left: 5px;
+}
+
+.datos-empresa strong {
+    display: flex;
+    align-items: center;
+    font-size: 48px;
+    margin-top: 0px;
+}
+
+.datos-empresa li {
+    margin-bottom: 5px;
+    /* Espacio entre cada elemento de la lista */
+    font-size: 36px;
+}
+
+.mapa {
+    position: relative;
+    padding-bottom: 75%;
+    /* Proporción de aspecto del mapa (ajustar según sea necesario) */
+    height: 0;
+    overflow: hidden;
+}
+
+.mapa iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

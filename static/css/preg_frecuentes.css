@@ -1,0 +1,44 @@
+.seccion-preg-frec {
+    background-image: url('/imagenes/fondo_preg_frec.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    max-width: 100%;
+}
+
+.titulo-preg-frec {
+    color: rgb(34, 96, 138);
+    /* Color del texto */
+    font-size: 36px;
+    /* Tamaño del título */
+    margin-bottom: 20px;
+    /* Espacio inferior */
+}
+
+.accordion-item {
+    background-color: #ffffff;
+    /* Color de fondo para los desplegables */
+
+}
+
+.accordion-button {
+    background-color: #ffffff;
+    /* Color de fondo para el botón del desplegable */
+    color: #000000;
+    /* Color del texto del botón */
+}
+
+.accordion-button:hover {
+    background-color: #f0f0f0;
+    /* Color de fondo cuando se pasa el mouse sobre el botón */
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #f0f0f0;
+    /* Color de fondo cuando el desplegable está abierto */
+}
+
+.list-group-item {
+    background-color: #f8f9fa;
+    /* Color de fondo para los elementos de la lista dentro del desplegable */
+}
