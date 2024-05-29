@@ -1,8 +1,51 @@
-#puntos_interes{
-    max-width: 100%;    
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.puntos_interes{
+    max-width: 100%;
+    position: relative;
+    background-image: url('/static/imagenes/fondo_inicio.png');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    z-index: 1; 
+    height: 100%;
+    overflow: flex;
+
 }
 
-.imagenes_interes img{
-    max-width: 100%; 
-    height: auto;
+.puntos_interes::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7); /* Superposición azul con opacidad */
+    z-index: -1; /* Coloca la superposición detrás del contenido */
+    background-blend-mode: overlay;
+}
+
+.imagenes_interes a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    height: 300px; 
+    padding: 10px; 
+}
+
+.imagenes_interes img {
+    max-width: 100%;
+    height: 200px;
+    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+}
+
+.imagenes_interes span {
+    display: block;
+    font-weight: bold;
+    color: #000;
+    font-family: "Playfair Display", serif;
+    margin-top: auto;
+    font-size: 24px;
 }

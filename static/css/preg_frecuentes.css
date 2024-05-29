@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 .seccion-preg-frec {
     background-image: url('/imagenes/fondo_preg_frec.jpg');
     background-size: cover;
@@ -8,11 +10,9 @@
 
 .titulo-preg-frec {
     color: rgb(34, 96, 138);
-    /* Color del texto */
     font-size: 36px;
-    /* Tamaño del título */
     margin-bottom: 20px;
-    /* Espacio inferior */
+    font-family: "Playfair Display", serif;
 }
 
 .accordion-item {
@@ -25,7 +25,7 @@
     background-color: #ffffff;
     /* Color de fondo para el botón del desplegable */
     color: #000000;
-    /* Color del texto del botón */
+    font-family: "Playfair Display", serif;
 }
 
 .accordion-button:hover {
@@ -40,5 +40,6 @@
 
 .list-group-item {
     background-color: #f8f9fa;
+    font-family: "Playfair Display", serif;
     /* Color de fondo para los elementos de la lista dentro del desplegable */
 }
